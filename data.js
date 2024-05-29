@@ -1,228 +1,153 @@
 export const bio = [
-    "Hello there, This is Vinay Somawat.",
-    `Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
-    `Eager to apply my technical expertise and in-depth
-    product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
+    "Hello there, This is Manoj Verma.",
+    // `Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
+    // `Eager to apply my technical expertise and in-depth
+    // product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
+  
+    `As a seasoned Software Consultant, I specialize in creating robust distributed architectures, with a keen focus on microservices and event-driven systems. My expertise extends to implementing DevOps methodologies using advanced tools such as Kubernetes, Docker, and AWS, ensuring seamless, scalable, and efficient operations.`,
+    `Additionally, my facility with big data technologies like Hadoop and Spark allows for the integration of expansive data handling capabilities into every solution.`,
+    `My approach prioritizes architectural integrity and comprehensive product optimization, with a strong emphasis on leading projects from concept through to delivery. `,
     "Thanks for taking the time to learn a little about me!",
 ];
 
 export const skills = [
     {
-        title: "Languages",
-        skillName: "JavaScript, TypeScript",
+        title: "Architecture",
+        skillName: "System Design, Microservices, EDA",
         color: "1",
         percentage: "80",
     },
     {
-        title: "Frameworks/Libraries",
-        skillName: "Angular, RxJS, NGXS",
+        title: "Infrastructure",
+        skillName: "Kubernetes, Docker, AWS",
         color: "6",
         percentage: "70",
     },
     {
-        title: "Design",
-        skillName: "HTML, Bootstrap, Tailwind",
+        title: "Programming Languages",
+        skillName: "C#, Python, Scala, Kotlin",
         color: "4",
         percentage: "70",
     },
     {
-        title: "Version Control",
-        skillName: "GitHub, JIRA, Bitbucket",
+        title: "Big Data",
+        skillName: "Apache Spark, Hadoop ETL",
         color: "7",
         percentage: "70",
     },
     {
-        title: "Tools",
-        skillName: "Postman, Chrome DevTools",
+        title: "Monitoring/Alerting Tools",
+        skillName: "EFK Stack, Grafana, Prometheus",
         color: "3",
         percentage: "80",
     },
-    {
-        title: "Analytics",
-        skillName: "CleverTap, Countly",
-        color: "5",
-        percentage: "50",
-    },
+    // {
+    //     title: "Analytics",
+    //     skillName: "CleverTap, Countly",
+    //     color: "5",
+    //     percentage: "50",
+    // },
     {
         title: "IDE",
-        skillName: "VS Code",
+        skillName: "JB Rider, IntelliJ, VS Code, Zed",
         color: "6",
         percentage: "70",
     },
 ];
 
-export const projects = {
-    webProjects: [
-        {
-            projectName: "Programming Diaries",
-            image: "images/programmingdiaries.png",
-            summary:
-                "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-            preview: "https://programmingdiaries.herokuapp.com/",
-            techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
-        },
-        {
-            projectName: "Find Your Bank",
-            image: "images/findyourbank.png",
-            summary:
-                "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-            preview: "https://clever-fermi-0d5d76.netlify.app",
-            techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
-        },
-        {
-            projectName: "Web Portfolio",
-            image: "images/portfolio.png",
-            summary:
-                "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-            preview: "https://github.com/vinaysomawat/Travographer-Portal",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
-        },
-        {
-            projectName: "Resume Builder",
-            image: "images/resume-builder.png",
-            summary:
-                "Browser based editor to build and download Resumes in a customizable templates.",
-            preview: "https://vinaysomawat.github.io/Resume-Builder",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
-        },
-    ],
-    softwareProjects: [
-        {
-            projectName: "Pizza Ordering ChatBot",
-            image: "images/pizzaorderchatbot.png",
-            summary:
-                "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-            preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-            techStack: ["Dailogflow", "Firebase"],
-        },
-        {
-            projectName: "WhatsApp-Bot",
-            image: "images/whatsappbot.jpg",
-            summary:
-                "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-            preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-            techStack: ["Selenium", "Chrome Webdriver", "Python"],
-        },
-        {
-            projectName: "Bill Generator",
-            image: "images/billgenerator.png",
-            summary:
-                "GUI to transfer data to excel sheets and generate bills on the local shops.",
-            preview: "https://github.com/vinaysomawat/Bill-Generator",
-            techStack: ["Tkinter", "Openxlpy", "Python"],
-        },
-    ],
-    androidProjects: [
-        {
-            projectName: "NITW-CSE",
-            image: "images/nitwcse.jpg",
-            summary:
-                "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-            preview: "https://github.com/vinaysomawat/NITW-CSE",
-            techStack: ["JAVA", "XML", "Android"],
-        },
-        {
-            projectName: "CareerHigh-App",
-            image: "images/carrerhigh.png",
-            summary:
-                "The Application display the webpages of website careerhigh.in in android devices.",
-            preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-            techStack: ["JAVA", "XML", "Android"],
-        },
-    ],
-    freelanceProjects: [
-        {
-            projectName: "SnylloAir.com",
-            image: "images/snylloair.png",
-            summary:
-                "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-            preview: "https://www.snylloair.com/",
-            techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-        },
-        {
-            projectName: "Delivery+",
-            image: "images/AM-Logo-.png",
-            summary: "Android Application to display website in android devices.",
-            preview:
-                "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-            techStack: ["Android", "JAVA", "Play Store"],
-        },
-    ],
-};
-
 export const experience = [
     {
-        title: "Shiprocket (Bigfoot Solution Private Limited)",
-        duration: "September 2022 - Present",
-        subtitle: "Software Engineer",
+        title: "Agoda, Bangkok",
+        duration: "Feb 2023 - Present",
+        subtitle: "Senior Software Developer",
         details: [
-            "Working in support and escalation team."
+            `Developing and maintaining Agoda’s CMS system, which powers the website, mobile, and SaaS services with 500,000 items in 51 languages from 10 different origins, ensuring each API response is under 350 milliseconds.`,
+            `Redesigned Agoda’s booking review system from a monolithic architecture to microservices, introducing multiple channel support to facilitate better decision-making for bug fixes and improvements. Currently, it supports 25,000 reviews per day.`, 
+            `Assisting the team in designing multiple solutions, and heavily involved in the planning and execution phase.`
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+        tags: ["System Design", "Event Driven Architecture", "MicroService", "Apache Spark", "Hadoop ETL", "API Design", "Kolin", "Scala"],
         icon: "truck ",
     },
     {
-        title: "Biofourmis India Private Limited",
-        duration: "April 2022 - Jul 2023",
-        subtitle: "Software Engineer",
+        title: "ThoughtWorks, Gurugram",
+        duration: "Jun 2021 - Jan 2023",
+        subtitle: "Senior Consultant",
         details: [
-            `Implemented microfrontends using the Module Federation Plugin in Angular.
-            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-            `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-            `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-            `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-            `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-            `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-            `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-            `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
-            `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-            and enhancing features.`,
+            `Worked with one of the US largest on-call insurance provider, where I took the responsibility of understanding the client's requirements and providing the most effective solutions.`,
+            `Primarily focused on integrating the legacy system with the new Polaris platform, determining the contracts and managing the data flow between the systems.`,
+            `Developed a new feature for the client's platform, which is now used by over 1000 users daily.`,
+            `Stabilized the platform and streamlined the deployment process by implementing a CI/CD pipeline using Azure DevOps tooling.`, 
         ],
-        tags: ["JavaScript", "Angular", "RxJS", "NGXS", "TypeScript", "RxState", "Webpack", "Optimization"],
+        tags: ["Event Driven Architecture", "MicroService", "Azure DevOps", "React", "SQL Server", "Mongo DB"],
+        icon: "heartbeat ",
+    },
+    {
+        title: "S&P Global, Gurugram",
+        duration: "Sep 2018 - Jun 2021",
+        subtitle: "Senior Software Engineer",
+        details: [ 
+            `Worked on the S&P Global Market Plats platform API gateway team, where I served as a DevOps engineer to configure the Kong API gateway for multiple data centers.`,
+            `Managed an elastic cluster to store logs and metrics data. Authored backup and restore scripts for the elastic cluster.`,
+            `Collaborated with a team to set up the monitoring and alerting system for the API gateway using Prometheus, Grafana, and the EFK stack.`,
+            `Assisted in onboarding new internal teams to use the API gateway and provided support to these teams.`,
+            `Worked extensively with AWS resources such as load balancers, EC2, DB, S3, and EKS.`,
+            `Developed and maintained the S&P Global Market Intelligence platform, a financial data platform that provides real-time data to over 100,000 users worldwide.`,
+            `Redesigned the Market Intelligence platform home page and contributed to the development of a new feature that allows users to customize their home page.`,
+        ],
+        tags: ["Kubernetes(EKS)", "Docker", "Elastic Search", "Monitoring", "AWS", "CI/CD", "C#", "React", "SQL Server"],
         icon: "heartbeat",
     },
     {
-        title: "Novopay Solutions Private Limited",
-        duration: "June 2020 - April 2022",
+        title: "Iris Software Pvt. Ltd., Noida",
+        duration: "Dec 2016 - Aug 2018",
         subtitle: "Software Engineer",
         details: [
-            `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-            and Money transfer.`,
-            `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-            `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-            `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
+           `During my tenure, I significantly contributed to two pivotal projects for BMO that enhanced banking operations and decision-making processes. As part of the LTS (Lending Transaction System) project, I implemented critical features for amortization and payment plans, alongside developing robust back-office systems. This involved orchestrating the migration of older portfolio features to the new LTS using technologies such as AngularJS, Web API, Oracle, and C#.`,
+           `Additionally, I played a key role in developing BCRG, a sophisticated reporting tool designed to generate precise and actionable reports for investment managers. This tool, built with Angular 6, Web API, Oracle, and C#, facilitates informed decision-making by providing fixed-format, clear, and concise reports.`,    
+           `These experiences have sharpened my technical skills and my ability to deliver solutions that streamline processes and support strategic business decisions.` 
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+        tags: ["JavaScript", "Angular", "C#", "ASP.Net Web API", "Oracle"],
         icon: "qrcode",
     },
     {
-        title: "ThinkPedia LLP",
-        duration: "May 2019 - June 2019",
-        subtitle: "SDE Intern",
+        title: "Daffodil Software Limited, Gurugram",
+        duration: "Jan 2014 - Dec 2016",
+        subtitle: "Associate IT",
         details: [
-            `Developed a customer web application for social media management, supporting the advertisement domain.`,
+            `Specialized in developing robust applications with ASP.Net MVC, leveraging SQL Server to implement and optimize complex database queries for enhanced performance.`,
+            `Skilled in crafting custom JavaScript plugins that improve user interaction and increase functionality.`, 
+            `Contributed technical expertise and critical problem-solving skills to prestigious projects with Intel SRC (Scientificial Review Committee) and Intel ISEF (International Science and Engineering Fair).` 
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+        tags: ["JavaScript", "jQuery", "C#", "ASP.Net MVC", "SQL Server"],
         icon: "group",
     },
 ];
 
 export const education = [
     {
-        title: "B.Tech. in Computer Science and Engineering",
-        duration: "2016 - 2020",
-        subtitle: "National Institute of Technology, Warangal",
+        title: "Master's in Computer Applications (MCA)",
+        duration: "2011 - 2014",
+        subtitle: "Uttar Pradesh Technical University, Lucknow, India",
         details: [],
         tags: [
             "Data Structures & Algorithms",
             "Operating Systems",
             "Database Management System",
-            "Computer Networks",
-            "Compiler Designing",
+            "Computer Networks", 
+            "Cloud Computing",
+        ],
+        icon: "graduation-cap",
+    },
+    {
+        title: "Bachelor's in Computer Applications (BCA)",
+        duration: "2009 - 2011",
+        subtitle: "Dr. Bhim Rao Ambedkar University, Agra, India",
+        details: [],
+        tags: [
+            "Data Structures & Algorithms",
+            "Operating Systems",
+            "Database Management System",
+            "Computer Networks", 
             "Cloud Computing",
         ],
         icon: "graduation-cap",
@@ -230,7 +155,7 @@ export const education = [
     {
         title: "Class 12th in Science and Mathematics",
         duration: "",
-        subtitle: "Board of Secondary Education, Rajasthan",
+        subtitle: "State Board of Intermediate Education, Uttar Pradesh, India",
         details: [],
         tags: ["Physics", "Chemistry", "Mathematics"],
         icon: "book",
@@ -247,12 +172,8 @@ export const footer = [
             },
             {
                 text: "GitHub",
-                link: "https://github.com/vinaysomawat",
-            },
-            {
-                text: "LeetCode",
-                link: "https://leetcode.com/somawatvinay/",
-            },
+                link: "https://github.com/manojverma-net/",
+            }
         ],
     },
     {
@@ -266,10 +187,10 @@ export const footer = [
                 text: "Print this page",
                 func: "window.print()",
             },
-            {
-                text: "Clone this page",
-                link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-            },
+            // {
+            //     text: "Clone this page",
+            //     link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+            // },
         ],
     },
     {
@@ -292,8 +213,45 @@ export const footer = [
     {
         label: "copyright-text",
         data: [
-            "Made with &hearts; by Vinay Somawat.",
+            "Made with &hearts; by Manoj Verma.",
             "&copy; No Copyrights. Feel free to use this template.",
         ],
     },
 ];
+
+
+// export const cms_data= 
+
+// {
+//     cmsId: 23423545 ,
+//     groupName: 'group name',
+//     defaultCmsText: 'cms text will go here',
+//     translations : {
+//         en : {
+//             A: {
+//                 dataId: 1000,
+//                 dataText: "cms text will go here",
+//                 status: "active"
+//             },
+//             B: {
+//                 dataId: 1001,
+//                 dataText: "B side of cms text will go here",
+//                 status: "inactive"
+//             }
+//         },
+//         fr : {
+//             A: {
+//                 dataId: 4023420,
+//                 dataText:  "france translation cms text will go here",
+//                 status: "active"
+//             } 
+//         },  
+//     },
+//     overrides: {
+//         TH : {
+//             en : 'override text for thailand',
+//             fr : 'override text for thailand'
+//         }
+//     }
+// }
+    
