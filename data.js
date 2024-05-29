@@ -41,18 +41,7 @@ export const skills = [
         color: "3",
         percentage: "80",
     },
-    // {
-    //     title: "Analytics",
-    //     skillName: "CleverTap, Countly",
-    //     color: "5",
-    //     percentage: "50",
-    // },
-    {
-        title: "IDE",
-        skillName: "JB Rider, IntelliJ, VS Code, Zed",
-        color: "6",
-        percentage: "70",
-    },
+    
 ];
 
 export const experience = [
@@ -168,7 +157,7 @@ export const footer = [
         data: [
             {
                 text: "Stackoverflow",
-                link: "https://stackoverflow.com/users/8461233/vinay-somawat",
+                link: "https://stackoverflow.com/users/4295332/manoj-verma",
             },
             {
                 text: "GitHub",
@@ -186,11 +175,7 @@ export const footer = [
             {
                 text: "Print this page",
                 func: "window.print()",
-            },
-            // {
-            //     text: "Clone this page",
-            //     link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-            // },
+            } 
         ],
     },
     {
@@ -198,16 +183,16 @@ export const footer = [
         data: [
             {
                 text: "Linkedin",
-                link: "https://www.linkedin.com/in/vinaysomawat/",
+                link: "https://www.linkedin.com/in/manojverma-net/",
             },
-            {
-                text: "Twitter",
-                link: "https://twitter.com/thesigmakid",
-            },
-            {
-                text: "Buy me a coffee",
-                link: "https://www.buymeacoffee.com/r194dME8y",
-            },
+            // {
+            //     text: "Twitter",
+            //     link: "https://twitter.com/thesigmakid",
+            // },
+            // {
+            //     text: "Buy me a coffee",
+            //     link: "https://www.buymeacoffee.com/r194dME8y",
+            // },
         ],
     },
     {
@@ -217,41 +202,5 @@ export const footer = [
             "&copy; No Copyrights. Feel free to use this template.",
         ],
     },
-];
-
-
-// export const cms_data= 
-
-// {
-//     cmsId: 23423545 ,
-//     groupName: 'group name',
-//     defaultCmsText: 'cms text will go here',
-//     translations : {
-//         en : {
-//             A: {
-//                 dataId: 1000,
-//                 dataText: "cms text will go here",
-//                 status: "active"
-//             },
-//             B: {
-//                 dataId: 1001,
-//                 dataText: "B side of cms text will go here",
-//                 status: "inactive"
-//             }
-//         },
-//         fr : {
-//             A: {
-//                 dataId: 4023420,
-//                 dataText:  "france translation cms text will go here",
-//                 status: "active"
-//             } 
-//         },  
-//     },
-//     overrides: {
-//         TH : {
-//             en : 'override text for thailand',
-//             fr : 'override text for thailand'
-//         }
-//     }
-// }
+]; 
     
