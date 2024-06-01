@@ -55,7 +55,7 @@ export const experience = [
             `Assisting the team in designing multiple solutions, and heavily involved in the planning and execution phase.`
         ],
         tags: ["System Design", "Event Driven Architecture", "MicroService", "Apache Spark", "Hadoop ETL", "API Design", "Kolin", "Scala"],
-        icon: "truck ",
+        icon: "hotel",
     },
     {
         title: "ThoughtWorks, Gurugram",
@@ -84,7 +84,7 @@ export const experience = [
             `Redesigned the Market Intelligence platform home page and contributed to the development of a new feature that allows users to customize their home page.`,
         ],
         tags: ["Kubernetes(EKS)", "Docker", "Elastic Search", "Monitoring", "AWS", "CI/CD", "C#", "React", "SQL Server"],
-        icon: "heartbeat",
+        icon: "credit-card ",
     },
     {
         title: "Iris Software Pvt. Ltd., Noida",
@@ -199,7 +199,8 @@ export const footer = [
         label: "copyright-text",
         data: [
             "Made with &hearts; by Manoj Verma.",
-            "&copy; No Copyrights. Feel free to use this template.",
+            "&copy; No Copyrights. Credits to - <a href='https://github.com/vinaysomawat/vinaysomawat.github.io'>Vinay Somawat</a>.",
+      
         ],
     },
 ]; 
